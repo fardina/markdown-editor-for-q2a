@@ -24,6 +24,7 @@ pre code{
     border: none;
     padding: 0;
     margin: 0;
+    background-color: transparent !important;
 }
 code{
     margin: 0 8px;
