@@ -14,20 +14,18 @@
 .wmd-input,.wmd-preview{
     width: 100% !important;
 }
-pre,code{
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-}
-pre{
-    border: none;
-    background-color: rgb(246, 248, 250);
-    border-radius: 3px;
-}
-code{
-    padding: 0.2em 0.4em;
-    margin: 0;
-    background-color: rgba(27,31,35,0.05);
-    border-radius: 3px;
+pre, code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono" !important;
+    background-color: rgba(27,31,35,.05);
+    border-radius: 5px;
+    border: 1px solid #ddd;
 }
 pre code{
-    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+code{
+    margin: 0 8px;
+    padding: 0 8px;
 }
