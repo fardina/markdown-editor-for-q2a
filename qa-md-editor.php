@@ -155,31 +155,31 @@ class qa_md_editor
 			'fields' => array(
 				'css' => array(
 					'type' => 'checkbox',
-					'label' => qa_lang_html('markdown/admin_hidecss'),
+					'label' => qa_lang_html('Markdown Lang For Q2A/admin_hidecss'),
 					'tags' => 'NAME="md_hidecss"',
 					'value' => qa_opt($this->cssopt) === '1',
-					'note' => qa_lang_html('markdown/admin_hidecss_note'),
+					'note' => qa_lang_html('Markdown Lang For Q2A/admin_hidecss_note'),
 				),
 				'comments' => array(
 					'type' => 'checkbox',
-					'label' => qa_lang_html('markdown/admin_comments'),
+					'label' => qa_lang_html('Markdown Lang For Q2A/admin_comments'),
 					'tags' => 'NAME="md_comments"',
 					'value' => qa_opt($this->convopt) === '1',
-					'note' => qa_lang_html('markdown/admin_comments_note'),
+					'note' => qa_lang_html('Markdown Lang For Q2A/admin_comments_note'),
 				),
 				'highlightjs' => array(
 					'type' => 'checkbox',
-					'label' => qa_lang_html('markdown/admin_syntax'),
+					'label' => qa_lang_html('Markdown Lang For Q2A/admin_syntax'),
 					'tags' => 'NAME="md_highlightjs"',
 					'value' => qa_opt($this->hljsopt) === '1',
-					'note' => qa_lang_html('markdown/admin_syntax_note'),
+					'note' => qa_lang_html('Markdown Lang For Q2A/admin_syntax_note'),
 				),
 				'uploadimage' => array(
 					'type' => 'checkbox',
-					'label' => qa_lang_html('markdown/admin_image'),
+					'label' => qa_lang_html('Markdown Lang For Q2A/admin_image'),
 					'tags' => 'NAME="md_uploadimage"',
 					'value' => qa_opt($this->impuplopt) === '1',
-					'note' => qa_lang_html('markdown/admin_image_note'),
+					'note' => qa_lang_html('Markdown Lang For Q2A/admin_image_note'),
 				)
 			),
 
