@@ -8,8 +8,8 @@ return array(
 	'plugin_title' => 'Markdown',
 	'preview' => 'Preview',
 
-	'admin_hidecss' => 'Don\'t add CSS inline',
-	'admin_hidecss_note' => 'Tick if you added the CSS to your own stylesheet (not working).',
+	'admin_hidecss' => 'Don\'t add Markdown CSS',
+	'admin_hidecss_note' => 'Tick if you don\'t want to use Markdown CSS.',
 	'admin_comments' => 'Plaintext comments',
 	'admin_comments_note' => 'Sets a post as plaintext when converting answers to comments.',
 	'admin_syntax' => 'Use syntax highlighting',

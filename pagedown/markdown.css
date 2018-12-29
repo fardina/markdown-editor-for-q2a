@@ -1,6 +1,33 @@
-.te-popup-add-image .te-url-type{
-    display: block;
+#qam-topbar{
+    background-color: #2c3e50;
 }
-.te-popup-add-image .te-tab-section,.te-popup-add-image form.te-file-type{
-    display: none !important;
+.qam-main-nav-wrapper,.qa-footer{
+    margin: 0 auto;
+    max-width: 1034px;
+}
+.qa-attribution{
+    border: none;
+}
+.qa-attribution:nth-child(2){
+    display: none;
+}
+.wmd-input,.wmd-preview{
+    width: 100% !important;
+}
+pre,code{
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+pre{
+    border: none;
+    background-color: rgb(246, 248, 250);
+    border-radius: 3px;
+}
+code{
+    background-color: rgb(246, 248, 250);
+    border-radius: 3px;
+    margin: 0;
+    padding: .2em .4em;
+}
+pre code{
+    background: transparent;
 }
