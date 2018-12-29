@@ -19,13 +19,19 @@ class qa_html_theme_layer extends qa_html_theme_base
 	{
 		parent::head_custom();
 
-		$tmpl = array('ask', 'question');
-		if (!in_array($this->template, $tmpl))
-			return;
-
 		$hidecss = qa_opt($this->cssopt) === '1';
 		$imageUploadEnabled = qa_opt($this->impuplopt) === '1';
 		$usehljs = qa_opt($this->hljsopt) === '1';
+
+		// display CSS for Markdown Editor
+		if(!$hidecss){
+			$this->output_raw("<link rel='stylesheet' href='".qa_html(QA_HTML_THEME_LAYER_URLTOROOT.'pagedown/markdown.css')."'>\n");
+		}
+
+		//limit page
+		$tmpl = array('ask', 'question');
+		if (!in_array($this->template, $tmpl))
+			return;
 
 		$this->output_raw(
 			"<style>\n"
@@ -43,11 +49,6 @@ class qa_html_theme_layer extends qa_html_theme_base
 		}
 
 		$this->output_raw("</style>\n\n");
-
-		// display CSS for Markdown Editor
-		if(!$hidecss){
-			$this->output_raw("<link rel='stylesheet' href='".qa_html(QA_HTML_THEME_LAYER_URLTOROOT.'pagedown/markdown.css')."'>\n");
-		}
 
 		// set up HighlightJS
 		if ($usehljs) {
