@@ -13,5 +13,5 @@ A markdown editor for [Question2Answer](http://www.question2answer.org), based o
 ![image](https://github.com/awei922/markdown-editor-for-q2a/blob/master/screenshot.png)
 
 ## Bug Feedback
-https://slimqa.com/index.php/4/a-markdown-editor-plugin-for-q2q
+https://mjiong.com/1/a-markdown-editor-plugin-for-q2a
 
