@@ -1,11 +1,11 @@
 {
 	"name": "Markdown Editor For Q2A",
 	"uri": "https://github.com/awei922/markdown-editor-for-q2a",
-	"description": "Markdown editor plugin for simple question2answer",
+	"description": "Markdown editor plugin for question2answer",
 	"version": "1.0.2",
 	"date": "2018-12-27",
 	"author": "awei922",
-	"author_uri": "http://slimqa.com/",
+	"author_uri": "http://mjiong.com/",
 	"license": "GPLv3",
 	"update_uri": "https://raw.githubusercontent.com/awei922/markdown-editor-for-q2a/master/metadata.json",
 	"min_q2a": "1.6",
