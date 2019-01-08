@@ -15,7 +15,7 @@ https://github.com/awei922/markdown-editor-for-q2a
 
 ## Screenshot
 
-![screenshot.png](https://mjiong.com/?qa=blob&qa_blobid=13105522005958239083)
+![screenshot.png](https://camo.githubusercontent.com/9fed6c8eb16872b15f5835f05d1033586a736d61/68747470733a2f2f6d6a696f6e672e636f6d2f3f71613d626c6f622671615f626c6f6269643d3133313035353232303035393538323339303833)
 
 
 ## Bug Feedback
