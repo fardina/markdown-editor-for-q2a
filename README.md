@@ -19,5 +19,5 @@ https://github.com/awei922/markdown-editor-for-q2a
 
 
 ## Bug Feedback
-https://mjiong.com/1/a-markdown-editor-plugin-for-q2a
+https://mjiong.com/archives/24
 
